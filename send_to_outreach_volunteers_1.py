@@ -10,7 +10,7 @@ for first_name, email_address in zip(name['Name'],name['email']): #iterates thro
     mail_item.Subject = "Email Subject"
     mail_item.BodyFormat = 1 #email format
 
-    mail_item.Body = f"Hello {first_name}. Last year you were participated in EWB's Outreach. We are planning more sessions this term and would like your help! Would you be interested in continuing?"
+    mail_item.Body = f"Hello {first_name}. Type your message."
     mail_item.Sender = "Your email"
     mail_item.To = str(email_address) #test for error
 
